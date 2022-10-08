@@ -1,9 +1,9 @@
 # First-Steps-Towards-TrentU-Life
 
-Project Name: First Step Towards TrentU Life
-Project Client: Paul Longhurst, Trent International
-Project Start and End Dates: Thursday, 15 September to Wednesday, 23 November, 2022
-Prepared By: Punyaja Mishra, Rachit Saini, Aymaan Shirazi, Cole Miller
+>Project Name: First Step Towards TrentU Life <br/>
+>Project Client: Paul Longhurst, Trent International  <br/>
+>Project Start and End Dates: Thursday, 15 September to Wednesday, 23 November, 2022  <br/>
+>Prepared By: Punyaja Mishra, Rachit Saini, Aymaan Shirazi, Cole Miller  <br/>
 
 
 
