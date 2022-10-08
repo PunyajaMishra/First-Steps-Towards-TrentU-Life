@@ -64,17 +64,17 @@ Implement Feature 12: Attend Orientation
 Final Deployment of the Product - Website
  
 ### Project Assumptions:
-Build the website on the existing Loki Server most Computer Science students have access too
-Refer and utilize some existing details and information from Trent’s web pages
-All details and information being provided by Paul Longhurst and Trent’s International Office are accurate
+>Build the website on the existing Loki Server most Computer Science students have access too
+>Refer and utilize some existing details and information from Trent’s web pages
+>All details and information being provided by Paul Longhurst and Trent’s International Office are accurate
 
 
 
 ## PROJECT OVERVIEW
 
-The project will feature a website that will help introduce new Trent students (specifically international students) to Trent University.  Here they will find various information and steps all in one place (such as what to do after accepting their offer letter, how to register for courses and how to use MyTrent). The website will consolidate all the information a new student should know when coming to Trent in one place. The website will have ordered steps in a “Level-like” format as we see in games. This way the students can track their requirements and tasks at each level and not miss a step.
+>The project will feature a website that will help introduce new Trent students (specifically international students) to Trent University.  Here they will find various >information and steps all in one place (such as what to do after accepting their offer letter, how to register for courses and how to use MyTrent). The website will >consolidate all the information a new student should know when coming to Trent in one place. The website will have ordered steps in a “Level-like” format as we see in >games. This way the students can track their requirements and tasks at each level and not miss a step.
 
-The product in development will receive bi-weekly feedback from the Client, Paul Longhurst and Trent International to help create a better user experience. New features will be added and tested every Sprint leading up to the final product. 
+>The product in development will receive bi-weekly feedback from the Client, Paul Longhurst and Trent International to help create a better user experience. New >features will be added and tested every Sprint leading up to the final product. 
 
 
 
