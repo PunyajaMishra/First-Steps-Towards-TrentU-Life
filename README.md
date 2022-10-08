@@ -21,7 +21,7 @@ Prepared By: Punyaja Mishra, Rachit Saini, Aymaan Shirazi, Cole Miller
 
 
 ### Project Scope [ Anticipated Deliverables ]:
-● Sprint 0 [ September 15 - 28 ]: <br/>
+#### Sprint 0 [ September 15 - 28 ]: <br/>
 * Prioritized list of project ideas <br/>
 * Team SWOT form <br/>
 * Project Approval Request form <br/>
@@ -30,7 +30,7 @@ Prepared By: Punyaja Mishra, Rachit Saini, Aymaan Shirazi, Cole Miller
 * Team Meeting with instructor <br/>
 * Team Meeting with the Project Owner to gather requirements <br/>
 
-● Sprint 1 [ September 29 – October 12 ]: <br/>
+#### Sprint 1 [ September 29 – October 12 ]: <br/>
 * Project’s Features Priority Chart  <br/>
 * Project Charter <br/>
 * Deliverables Schedule <br/>
@@ -41,7 +41,7 @@ Prepared By: Punyaja Mishra, Rachit Saini, Aymaan Shirazi, Cole Miller
 * Lessons Learned Report #1 <br/>
  
 
-● Sprint 2 [ October 13 – October 26 ]:<br?>
+#### Sprint 2 [ October 13 – October 26 ]:<br?>
 * Implement Feature 2: Apply Study Permit <br/>
 * Implement Feature 3: Activate Trent Email and Using myTrent Portal <br/>
 * Implement Feature 4: Pay your Tuition Deposit <br/>
@@ -49,7 +49,7 @@ Prepared By: Punyaja Mishra, Rachit Saini, Aymaan Shirazi, Cole Miller
 * Lessons Learned Report #2 <br/>
 
 
-● Sprint 3 [ October 27 – November 9 ]: <br/>
+#### Sprint 3 [ October 27 – November 9 ]: <br/>
 * Implement Feature 6: What are credits, what classes do I need to register for? <br/>
 * Implement Feature 7: How to register for courses? <br/>
 * Implement Feature 8: Attend the online Trent International Welcome session <br/>
@@ -57,7 +57,7 @@ Prepared By: Punyaja Mishra, Rachit Saini, Aymaan Shirazi, Cole Miller
 * Lessons Learned Report #3 <br/>
 
 
-● Sprint 4 [ November 10 – November 23 ]: <br/>
+#### Sprint 4 [ November 10 – November 23 ]: <br/>
 * Implement Feature 10: Arrive to Canada <br/>
 * Implement Feature 11: Move into Residence/off-campus housing <br/>
 * Implement Feature 12: Attend Orientation <br/>
