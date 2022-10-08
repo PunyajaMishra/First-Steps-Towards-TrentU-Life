@@ -22,9 +22,9 @@ Prepared By: Punyaja Mishra, Rachit Saini, Aymaan Shirazi, Cole Miller
 
 ### Project Scope [ Anticipated Deliverables ]:
 ● Sprint 0 [ September 15 - 28 ]:
-Prioritized list of project ideas <br/>
-Team SWOT form <br/>
-Project Approval Request form <br/>
+*Prioritized list of project ideas <br/>
+*Team SWOT form <br/>
+*Project Approval Request form <br/>
 Kanboard Curator’s name <br/>
 Team’s Organizational Structure Chart <br/>
 Team Meeting with instructor <br/>
