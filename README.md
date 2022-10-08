@@ -31,7 +31,7 @@ Team Meeting with instructor
 Team Meeting with the Project Owner to gather requirements
 
 ● Sprint 1 [ September 29 – October 12 ]:
-Project’s Features Priority Chart
+Project’s Features Priority Chart --
 Project Charter
 Deliverables Schedule
 Project’s WBS Chart
