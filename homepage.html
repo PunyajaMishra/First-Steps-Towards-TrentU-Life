@@ -1,130 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!--Store all meta data -->
-    <head> 
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content = "Main Landing Page of the Dashboard of Longworth Dental Boutique"/>
-        
-        <!--Script Pull-->
-        <script src="Scripts/jquery-3.6.1.min.js"></script>
-        <script src="Scripts/jquery.rwdImageMaps.min.js"></script>
-        <script src="Scripts/jquery.rwdImageMaps.js"></script>
-        <!--Stylesheet-->
-        <link rel="stylesheet" href="css/homepage.css">
-        <script src="https://kit.fontawesome.com/170f096220.js" crossorigin="anonymous"></script>
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <title>Welcome HomePage</title>
-    </head>
-    <body>
-        <header>
-            <!--Orange Box-->
-            <div id="orange_bkg" class="orange_bkg">
-                <div id="green_bkg" class="green_bkg"><!--Green Navigation Box-->
-                    <div id="logo" class="logo">
-                        <img src="images/trentulogo.png" alt="Trent University Logo" width="300" >
-                    </div>
-                    <!--Navigation-->
-                    <div class="navLinks">
-                        <ul>
-                            <li>Peterborough</li>
-                            <li>Durham</li>
-                            <li>About Trent</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <main>
-            <!--Welcome Text - Over Image--> 
-            <div id="welcomeContainer" class="welcomeContainer">
-                <img src="images/welcome.png" class="welcome" alt="Trent University as Background Picture" width="100%" height="750">
-                <div id="welcomeMessage" class="welcomeMessage">
-                    <h1> WELCOME INTERNATIONAL STUDENTS</h1>
-                    <p>To a Place you can call Home</p>
-                </div>
-            </div>
-            
-            <!-- Introduction Welcome Paragraph-->
-            <div id="intro" class="intro">
-                
-                <p> 
-                    Welcome to Trent University Family! Thank you for accepting the offer letter. We are excited for you to start your journey here at Trent 
-                    and want to make your transition as smooth as possible. You are now officially part of Trent University. 
-                    We are here to assist you with all and any questions you have. 
-                </p>
-                <p>
-                    As an international student, the onboarding process is a little different and longer than that of a domestic student's. There
-                    are a few extra processes and procedures that needs to be followed to ensure a smooth start of University Life. 
-                    But not to worry, we have created this step-by-step guide for you to follow and ensure you do not miss any step! All the initial 
-                    steps required have been detailed below. 
-                </p>
-                <p>
-                    We have broken down this long process in a game-like structure where as long as you complete each level successfully, you will 
-                    begin your university at ease and very soon! <br/>
-                    Click on each level on the map below and it will take you to a new page with detailed information 
-                    about the procedure. There are resourcess and links attached at every level for you to refer to. 
-                    There is also a checklist document you can download if you wish to track your progress locally. 
-                </p>
-                <p>
-                    Please feel free to reach out to  <span class="underline-hover-effect"><a href = "https://www.trentu.ca/currentstudents/international">"Trent International Department"</a></span> via
-                    email with any questions or concerns you have.
-                </p>
-            </div>
-            
-            <!--RoadMap image hyperlink coordination-->
-            <div id="level_img" class="level_img">
-                <img src="images/Roadmap.png" alt="RoadMap to Success" usemap="#levels" width="70%" >
-                <map name="levels">
-                    <area shape="rect" coords="310,40,520,110" alt="Level 1" href="feature2.html">
-                    <area shape="rect" coords="520,170,730,240" alt="Level 2" href="feature3.html">
-                    <area shape="rect" coords="90,320,300,390" alt="Level 3" href="feature4.html">
-                    <area shape="rect" coords="200,750,410,820" alt="Level 4" href="feature5.html">
-                    <area shape="rect" coords="840,330,1050,400" alt="Level 5" href="feature6.html">
-                    <area shape="rect" coords="890,710,1260,780" alt="Level 6" href="feature7.html">
-                    <area shape="rect" coords="580,1100,790,1170" alt="Level 7" href="feature8.html">
-                    <area shape="rect" coords="180,1450,390,1320" alt="Level 8" href="feature9.html">
-                    <area shape="rect" coords="580,1590,790,1660" alt="Level 9" href="feature10.html">
-                    <area shape="rect" coords="980,1200,1190,1270" alt="Level 10" href="feature11.html">
-                    <area shape="rect" coords="900,1670,1110,1740" alt="Level 11" href="feature12.html">
-                </map>
-            </div>
-          <!--  <script>
-                    $('img[usemap]').rwdImageMaps();
-            </script> -->
-        </main>
-        
-           <!--Footer-->
-        <footer>
-            <div id="footerContainer" class="footerContainer">
-                <div id="leftmost" class="leftmost">
-                    <img src="images/trentulogo_footer.png" alt="Trent University Logo"  width="20%" height="15%">
-                    <p> Trent University respectfully acknowledges it is located on the treaty and traditional territory of the Mississauga Anishinaabeg. 
-                        <a href = "https://www.trentu.ca/we-offer-our-gratitude">"We offer our gratitude"</a>
-                        to First Peoples for their care for, and teachings about, our earth and our relations. May we honour those teachings.</p>
-                </div>
-                <div id="centerdiv" class="centerdiv">
-                    <p> Peterborough </p>
-                    <p> 1600 Wet Bank Drive <br/> Peterborough, ON, Canada, K9L OG2</p>
-                    <p>Toll Free: 1-855-MY-TRENT</p>
-                </div>
-                <div id="rightmost" class="rightmost">
-                    <p> Durham </p>
-                    <p> 55 Thornton Road South <br/> Oshawa, ON, Canada, L1J 5Y1</p>
-                    <p>Phone: 905-435-5100</p>
-                </div>
-            </div>
-            
-            <!--Footer Links-->
-            <div id="copyrightDiv" class="copyrightDiv">
-                <ul>
-                    <li><a href = "https://www.trentu.ca/contact">"Contact"</a></li>
-                    <li><a href = "https://www.trentu.ca/about/how-find-us/">"Directions"</a></li>
-                    <li><a href = "https://www.trentu.ca/directory/sitemap.php">"Site Map"</a></li>
-                    <li><a href = "https://www.trentu.ca/chrea/accessibility/">"Accessibility"</a></li>
-                    <li><a href = "https://www.trentu.ca/">"@ Copyright Trent University"</a></li>
-                </ul>
-            </div>
-        </footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="desktop1Wrapper">
+      <div class="footer"></div>
+      <p class="durham">DURHAM</p>
+      <p class="logIn">LOG IN</p>
+      <img class="logo1" src="./images/logo-1.png" />
+      <p class="welcome">WELCOME</p>
+      
+      <p
+        class="welcomeToTheTrentInternationalFamilyBelowIsAListOfNextStepsForNewInternationalStudents"
+      >
+        Welcome to the Trent International Family! Below is a list of next steps
+        for new international students
+      </p>
+      <p class="textOne">
+        01 APPLY FOR STUDY PERMIT Make sure you have all the documents you need
+        before you apply. You should apply before you travel to Canada.
+      </p>
+      
+      <p class="textTwo">
+        02 ACTIVATE TRENT EMAIL Complete the New User Activation Form to
+        activate your account.
+      </p>
+      <p class="textThree">
+        03 PAY YOUR TUITION DEPOSIT Pay your fees and review financial deadlines
+        Undergraduate and Certificate or Graduate
+      </p>
+      <p class="textFour">
+        04 APPLY FOR RESIDENCE/OFF-CAMPUS HOUSING Whether you’re searching for a
+        single room or a whole house, navigating living with roommates, or
+        reading your first lease, Explore various Housing options.
+      </p>
+      <p class="textFive">
+        05 WHAT CLASSES DO I NEED TO REGISTER FOR ? Make sure you read the
+        academic calendar to see the required credits and courses you need to
+        graduate.
+      </p>
+      <img class="line7" src="./images/line-7.svg" />
+      <img class="line8" src="./images/line-8.svg" />
+      <p class="textSix">
+        06 HOW TO REGISTER FOR COURSES? Register for courses Registration
+        Webinar
+      </p>
+      <img class="line9" src="./images/line-9.svg" />
+      <img class="line10" src="./images/line-10.svg" />
+      <p class="textSeven">
+        07 ATTEND THE ONLINE TRENT INTERNATIONAL WELCOME SESSION Attend Next
+        Steps Webinar for New International Students sessions hosted in
+        November.
+      </p>
+      <img class="line11" src="./images/line-11.svg" />
+      <img class="line12" src="./images/line-12.svg" />
+      <p class="textEight">
+        08 WHAT YOU NEED WHEN YOU COME TO CANADA Refer to the Government of
+        Canada arrival guide for international students and visit our Safe
+        Arrival Webpage to start planning your arrival in Canada
+      </p>
+      <img class="line13" src="./images/line-13.svg" />
+      <img class="line14" src="./images/line-14.svg" />
+      <p class="textNine">
+        09 ARRIVE TO CANADA Refer to the Government of Canada arrival guide for
+        international students and visit our Safe Arrival Webpage to start
+        planning your arrival in Canada
+      </p>
+      
+      <img class="line15" src="./images/line-15.svg" />
+      <img class="line16" src="./images/line-16.svg" />
+      <p class="textTen">
+        10 MOVE INTO RESIDENCE/OFF-CAMPUS HOUSIN Look out for move in dates and
+        timeslots for your annex/college block
+      </p>
+      <img class="line15" src="./images/line-15.svg" />
+      <img class="line16" src="./images/line-16.svg" />
+      <p class="textEleven">
+        11 ATTEND ORIENTATION Arrive at Trent and attend orientation! We look
+        forward to meeting you!
+      </p>
+      
+    </div>
+  </body>
 </html>
+<style>.desktop1Wrapper {
+  width: 100%;
+  height: 3673px;
+  position: relative;
+  background-color: #262424;
+}
+
+.footer {
+  top: 0px;
+  height: 150px;
+  left: 0px;
+  width: 1440px;
+  position: absolute;
+  overflow: hidden;
+  background-color: #154734;
+}
+
+.durham {
+  top: 88px;
+  height: 32px;
+  left: 1138px;
+  width: 141px;
+  position: absolute;
+  font-size: 24px;
+  text-align: left;
+  line-height: 29px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.logIn {
+  top: 88px;
+  height: 32px;
+  left: 1317px;
+  width: 123px;
+  position: absolute;
+  font-size: 24px;
+  text-align: left;
+  line-height: 29px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.logo1 {
+  top: 0px;
+  height: 141px;
+  left: 29px;
+  width: 360px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.welcome {
+  top: 88px;
+  height: 32px;
+  left: 957px;
+  width: 143px;
+  position: absolute;
+  font-size: 24px;
+  text-align: left;
+  line-height: 29px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+
+
+.welcomeToTheTrentInternationalFamilyBelowIsAListOfNextStepsForNewInternationalStudents {
+  top: 236px;
+  height: 295px;
+  left: 183px;
+  width: 1122px;
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  line-height: 48px;
+  letter-spacing: 0px;
+  color: #b15533;
+}
+
+.textOne {
+  top: 531px;
+  height: 241px;
+  left: 0px;
+  width: 578px;
+  position: absolute;
+  text-align: right;
+  line-height: NaNpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+
+
+
+
+.line7 {
+height: 15em;
+position: absolute;
+top: 35em;
+left: 43em
+}
+
+.textTwo {
+  top: 831px;
+  height: 241px;
+  right: 10em;
+  width: 578px;
+  position: absolute;
+  text-align: right;
+  line-height: NaNpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.textThree {
+  top: 70em;
+  height: 241px;
+  left: 0px;
+  width: 578px;
+  position: absolute;
+  text-align: right;
+  line-height: NaNpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.textFour {
+  top: 90em;
+  height: 241px;
+  right: 5em;
+  width: 578px;
+  position: absolute;
+  text-align: right;
+  line-height: NaNpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+
+
+.line8 {
+  height: 15em;
+position: absolute;
+top: 55em;
+left: 43em
+}
+
+.textFive {
+  top: 105em;
+  height: 241px;
+  left: 5em;
+  width: 578px;
+  position: absolute;
+  text-align: right;
+  line-height: NaNpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.line9 {
+  height: 15em;
+position: absolute;
+top: 75em;
+left: 43em
+}
+
+.line10 {
+  height: 14em;
+position: absolute;
+top: 93em;
+left: 43em
+}
+
+.line11 {
+  height: 15em;
+position: absolute;
+top: 110em;
+left: 43em
+}
+
+.line12 {
+  height: 15em;
+position: absolute;
+top: 130em;
+left: 43em
+}
+
+.textSix {
+  top: 125em;
+  height: 241px;
+  right: 5em;
+  width: 578px;
+  position: absolute;
+  text-align: right;
+  line-height: NaNpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.textSeven {
+  top: 145em;
+  height: 241px;
+  left: 5em;
+  width: 578px;
+  position: absolute;
+  text-align: right;
+  line-height: NaNpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.line13 {
+  height: 15em;
+position: absolute;
+top: 150em;
+left: 43em
+}
+
+.line14 {
+  height: 15em;
+position: absolute;
+top: 213em;
+left: 43em
+}
+
+.textEight {
+  top: 165em;
+  height: 241px;
+  right: 5em;
+  width: 578px;
+  position: absolute;
+  text-align: right;
+  line-height: NaNpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.textNine{
+  top: 190em;
+  height: 241px;
+  left: 5em;
+  width: 578px;
+  position: absolute;
+  text-align: right;
+  line-height: NaNpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.textTen {
+  top: 210em;
+  height: 241px;
+  right: 5em;
+  width: 578px;
+  position: absolute;
+  text-align: right;
+  line-height: NaNpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.textEleven {
+  top: 225em;
+  height: 241px;
+  left: 5em;
+  width: 578px;
+  position: absolute;
+  text-align: right;
+  line-height: NaNpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.textTwelve {
+  top: 3432px;
+  height: 241px;
+  left: 0px;
+  width: 578px;
+  position: absolute;
+  text-align: right;
+  line-height: NaNpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.line15 {
+  height: 15em;
+position: absolute;
+top: 193em;
+left: 43em
+}
+.line16 {
+  height: 15em;
+position: absolute;
+top: 170em;
+left: 43em
+}
+
+
+
+.line17 {
+  height: 15em;
+position: absolute;
+top: 190em;
+left: 43em
+}
+
+.line18 {
+  height: 15em;
+position: absolute;
+top: 55em;
+left: 43em
+}
+
+.line19 {
+  height: 15em;
+position: absolute;
+top: 55em;
+left: 43em
+}
+
+.line20 {
+  height: 15em;
+position: absolute;
+top: 55em;
+left: 43em
+}
+
+
+
+
+
+.line21 {
+  height: 15em;
+position: absolute;
+top: 55em;
+left: 43em
+}
+
+.line22 {
+  height: 15em;
+position: absolute;
+top: 55em;
+left: 43em
+}
+
+
+
+.line23 {
+  height: 15em;
+position: absolute;
+top: 55em;
+left: 43em
+}
+
+.line24 {
+  height: 15em;
+position: absolute;
+top: 55em;
+left: 43em
+}</style>
