@@ -5,15 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./css/homepage.css" />
   </head>
   <body>
-    <div class="desktop1Wrapper">
-      <div class="footer"></div>
-      <p class="durham">DURHAM</p>
-      <p class="logIn">LOG IN</p>
-      <img class="logo1" src="./images/logo-1.png" />
+    <header>
+              <!--Notification Box-->
+              <div class="top-notification">
+                <p><a href="">Trent International page</a></p>
+            </div>
+            <!--Main brand navigation-->
+            <div class="main-navigation">
+                <div>
+                    <a href="trentu.ca">
+                        <img src="images/trentulogo.png" alt="Trent University homepafe" class="trent-logo">
+                    </a>    
+                </div>
+                
+                <div class="main-navigation-links">
+                    <ul>
+                        <li><a href="">Peterborough</a></li>
+                        <li><a href="">Dhuram GTA</a></li>
+                        <li><a href="">Online</a></li>
+                        <li><a href="">My Trent</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+    
+            <div class="page-navigation-sticky">
+                <div class="crest-title">
+                    <div><img src="images/crest.png" alt="Trent-crest" class="site-crest"></div>
+                    <div><h2 class="site-title">Pay your tution Deposit</h2></div>
+                    
+                </div>
+                <div>
+                    <ul class="site-links">
+                        <li><a href="">Deadlines</a></li>
+                        <li><a href="">Fees Breakdown</a></li>
+                        <li><a href="">Make a Payment</a></li>
+                        <li><a href="">Check FINANCES</a></li>
+                        <li><a href="https://www.trentu.ca/studentfinances/tuition-fees/frequently-asked-questions">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+    </header>
+   
+    
       <p class="welcome">WELCOME</p>
       
       <p
@@ -102,427 +139,3 @@
     </div>
   </body>
 </html>
-<style>.desktop1Wrapper {
-  width: 102%;
-  height: 3860px;
-  position: relative;
-  background-color: #262424;
-}
-
-body {
-background-color: #262424;
-}
-.footer {
-  
-  left:0;
-  width: 100%;
-  height: 150px;
-  right: 0px;
-  left: 0px;
-  position: absolute;
-  overflow: hidden;
-  background-color: #154734;
-  margin: 0;
-  border-left: 0px;
-  border-right: 0px;
-}
-
-.durham {
-  top: 88px;
-  height: 32px;
-  left: 1138px;
-  width: 141px;
-  position: absolute;
-  font-size: 24px;
-  text-align: left;
-  line-height: 29px;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-
-.logIn {
-  top: 88px;
-  height: 32px;
-  left: 1317px;
-  width: 123px;
-  position: absolute;
-  font-size: 24px;
-  text-align: left;
-  line-height: 29px;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-
-.logo1 {
-  top: 0px;
-  height: 141px;
-  left: 10px;
-  width: 360px;
-  position: absolute;
-  overflow: hidden;
-}
-
-.welcome {
-  top: 88px;
-  height: 32px;
-  left: 957px;
-  width: 143px;
-  position: absolute;
-  font-size: 24px;
-  text-align: left;
-  line-height: 29px;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-
-
-
-.welcomeToTheTrentInternationalFamilyBelowIsAListOfNextStepsForNewInternationalStudents {
-  top: 236px;
-  height: 295px;
-  left: 183px;
-  width: 1122px;
-  position: absolute;
-  font-size: 40px;
-  text-align: center;
-  line-height: 48px;
-  letter-spacing: 0px;
-  color: #b15533;
-}
-
-.textOne {
-  border: 5px solid green;
-  padding: 10px;
-  margin: 20px;
-  font-size: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  top: 531px;
-  height: 241px;
-  left: 0px;
-  width: 578px;
-  position: absolute;
-  text-align: right;
-  line-height: NaNpx;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-
-.line7 {
-height: 15em;
-position: absolute;
-top: 38em;
-left: 40em
-}
-
-.textTwo {
-  font-size: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  border: 5px solid green;
-  padding: 10px;
-  margin: 20px;
-  top: 831px;
-  height: 241px;
-  right: 4em;
-  width: 578px;
-  position: absolute;
-  text-align: right;
-  line-height: NaNpx;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-
-.textThree {
-  font-size: 20px;
-  border: 5px solid green;
-  padding: 10px;
-  margin: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  top: 61em;
-  height: 241px;
-  left: 0px;
-  width: 578px;
-  position: absolute;
-  text-align: right;
-  line-height: NaNpx;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-
-.textFour {
-  font-size: 20px;
-  border: 5px solid green;
-  padding: 10px;
-  margin: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  top: 82em;
-  height: 241px;
-  right: 5em;
-  width: 578px;
-  position: absolute;
-  text-align: right;
-  line-height: NaNpx;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-
-
-
-.line8 {
-  height: 15em;
-position: absolute;
-top: 60em;
-left: 41em
-}
-
-.textFive {
-  font-size: 20px;
-  border: 5px solid green;
-  padding: 10px;
-  margin: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  top: 102em;
-  height: 241px;
-  left: 0em;
-  width: 578px;
-  position: absolute;
-  text-align: right;
-  line-height: NaNpx;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-
-.line9 {
-  height: 15em;
-position: absolute;
-top: 88em;
-left: 40em
-}
-
-.line10 {
-  height: 15em;
-position: absolute;
-top: 115em;
-left: 40em
-}
-
-.line11 {
-  height: 15em;
-position: absolute;
-top: 140em;
-left: 42em
-}
-
-.line12 {
-  height: 15em;
-position: absolute;
-top: 168em;
-left: 41em
-}
-
-.textSix {
-  font-size: 20px;
-  border: 5px solid green;
-  padding: 10px;
-  margin: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  top: 125em;
-  height: 241px;
-  right: 4em;
-  width: 578px;
-  position: absolute;
-  text-align: right;
-  line-height: NaNpx;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-
-.textSeven {
-  font-size: 20px;
-  border: 5px solid green;
-  padding: 10px;
-  margin: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  top: 145em;
-  height: 241px;
-  left: 0em;
-  width: 578px;
-  position: absolute;
-  text-align: right;
-  line-height: NaNpx;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-
-.line13 {
-  height: 15em;
-position: absolute;
-top: 192em;
-left: 41em
-}
-
-.line14 {
-  height: 15em;
-position: absolute;
-top: 218em;
-left: 41em
-}
-
-.textEight {
-  font-size: 20px;
-  border: 5px solid green;
-  padding: 10px;
-  margin: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  top: 165em;
-  height: 241px;
-  right: 3em;
-  width: 578px;
-  position: absolute;
-  text-align: right;
-  line-height: NaNpx;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-.textNine{
-  font-size: 20px;
-  border: 5px solid green;
-  padding: 10px;
-  margin: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  top: 188em;
-  height: 241px;
-  left: 0em;
-  width: 578px;
-  position: absolute;
-  text-align: right;
-  line-height: NaNpx;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-.textTen {
-  
-  font-size: 20px;
-  border: 5px solid green;
-  padding: 10px;
-  margin: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  top: 212em;
-  height: 241px;
-  right: 2em;
-  width: 578px;
-  position: absolute;
-  text-align: right;
-  line-height: NaNpx;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-
-.textEleven {
-  font-size: 20px;
-  border: 5px solid green;
-  padding: 10px;
-  margin: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  top: 235em;
-  height: 241px;
-  left: 0em;
-  width: 578px;
-  position: absolute;
-  text-align: right;
-  line-height: NaNpx;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-.textTwelve {
-  font-size: 20px;
-  border: 5px solid green;
-  padding: 10px;
-  margin: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  top: 3432px;
-  height: 241px;
-  left: 0px;
-  width: 578px;
-  position: absolute;
-  text-align: right;
-  line-height: NaNpx;
-  letter-spacing: 0px;
-  color: #ffffff;
-}
-
-.line15 {
-  height: 15em;
-position: absolute;
-top: 250em;
-left: 41em
-}
-.line16 {
-  height: 15em;
-position: absolute;
-top: 275em;
-left: 41em
-}
-
-
-
-.line17 {
-  height: 15em;
-position: absolute;
-top: 190em;
-left: 43em
-}
-
-.line18 {
-  height: 15em;
-position: absolute;
-top: 55em;
-left: 43em
-}
-
-.line19 {
-  height: 15em;
-position: absolute;
-top: 55em;
-left: 43em
-}
-
-.line20 {
-  height: 15em;
-position: absolute;
-top: 55em;
-left: 43em
-}
-
-
-
-
-
-.line21 {
-  height: 15em;
-position: absolute;
-top: 55em;
-left: 43em
-}
-
-.line22 {
-  height: 15em;
-position: absolute;
-top: 55em;
-left: 43em
-}
-
-
-
-.line23 {
-  height: 15em;
-position: absolute;
-top: 55em;
-left: 43em
-}
-
-.line24 {
-  height: 15em;
-position: absolute;
-top: 55em;
-left: 43em
-}</style>
