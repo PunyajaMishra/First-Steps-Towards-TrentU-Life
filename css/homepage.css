@@ -6,6 +6,7 @@
 :root {
   --trentGreen: #224a3c;
   --trentOrange: #b65735;
+  --trentWordYellow: #c0b561;
 }
 
 body {
@@ -493,3 +494,74 @@ footer {
   color: white;
   background-color: #224a3c;
 }
+
+/* ##########################################
+              Footer
+  ########################################### */
+  footer{
+    background-color: var(--trentGreen);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 5%;
+    padding-top: 5%;
+    height: 60vh;
+    
+   
+  }
+  .FooterTagline{
+    color: var(--trentWordYellow);
+    font-size: 3vh;
+  }
+.row-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.facebook, .twitter,.linkedin, .instagram,.youtube{
+  color: white;
+  font-size: 5vh;
+}
+.social-icons{
+  list-style: none;
+  display: flex;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.social-icons li{
+  list-style: none;
+  display: flex;
+  padding: 5%;
+
+}
+.ending-footer{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding-bottom: -10%;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+}
+.dot{
+  color: white;
+  font-size: 3vh;
+}
+.footer-links{
+  color:white;
+}
+footer p{
+  color: white;
+}
+.copyright-text{
+  color: grey;
+  
+}
+h5{
+  color: white;
+  font-size: 4vh;
+}
+
