@@ -65,7 +65,7 @@ div.main-navigation {
   padding-right: 3vh;
 }
 /*Div tag - sticky navigation page*/
-.page-navigation-sticky {
+.page-navigation-sticky{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -80,6 +80,7 @@ div.main-navigation {
   margin-right: -0.5em;
   font-family: Verdana, sans-serif;
 }
+
 .site-crest {
   height: 2em;
   min-width: 1em;
@@ -119,6 +120,7 @@ div.main-navigation {
   font-size: 1.2em;
   color: white;
 }
+
 
 
 
