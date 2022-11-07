@@ -616,3 +616,23 @@ h5{
   font-size: 20px;
   padding: 16px 32px;
 }
+.joinmeeting{
+  display: flex;
+  flex-direction: column;
+  transform: scale(1);
+}
+.joinmeeting:hover{
+  transform: scale(1.1);
+}
+.f8table,td,th{
+  border: 1px solid;
+}
+.f8table th{
+  text-align: left;
+  font-size: 1.2em;
+  background-color: 		#9bcd9b;
+}
+.f8table td{
+  font-size: 1.2em;
+  background-color: lightgoldenrodyellow;
+}
