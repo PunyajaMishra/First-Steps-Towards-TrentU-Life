@@ -460,9 +460,13 @@ footer {
 
 .level-page-nav {
   margin-right: 10%;
+
   background-color: #e5edee;
   height: max-content;
 }
+
+
+
 
 .level-page-nav h2 {
   text-align: center;
@@ -566,4 +570,49 @@ h5{
   color: white;
   font-size: 4vh;
 }
+/*******Feature 8 ***********/
+.feature-8-image{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 
+
+  
+}
+.container:hover .feature-8-image{
+	-webkit-transform: scale(1.1);
+	transform: scale(0.95);
+}
+.container {
+  position: relative;
+  
+}
+
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 90%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .feature-8-image{
+  opacity: 0.6;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: var(--trentGreen);
+  color: #c0b561;
+  font-size: 20px;
+  padding: 16px 32px;
+}
