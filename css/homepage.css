@@ -80,6 +80,12 @@ div.main-navigation {
   margin-right: -0.5em;
   font-family: Verdana, sans-serif;
 }
+.sticky{
+	
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
 
 .site-crest {
   height: 2em;
@@ -119,6 +125,7 @@ div.main-navigation {
 .site-title {
   font-size: 1.2em;
   color: white;
+  margin-left: 1%;
 }
 
 
