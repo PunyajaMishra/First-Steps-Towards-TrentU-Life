@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to register for courses</title>
+    <link rel="stylesheet" href="./css/homepage.css" />
+  </head>
+  <body>
+    <header>
+      <!--Notification Box-->
+      <div class="top-notification">
+        <p><a href="">Trent International page</a></p>
+      </div>
+      <!--Main brand navigation-->
+      <div class="main-navigation">
+        <div>
+          <a href="trentu.ca">
+            <img
+              src="images/trentulogo.png"
+              alt="Trent University homepage"
+              class="trent-logo"
+            />
+          </a>
+        </div>
+        <div class="main-navigation-links">
+          <ul>
+            <li><a href="homepage.html">Welcome</a></li>
+            <li><a href="https://www.trentu.ca/">Peterborough</a></li>
+            <li><a href="https://www.trentu.ca/durham-gta">Durham</a></li>
+            <li><a href="https://www.trentu.ca/online/">Online</a></li>
+            <li><a href="https://www.trentu.ca/mytrent">myTrent</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="page-navigation-sticky">
+        <div class="crest-title">
+          <div>
+            <img src="./images/crest.png" alt="Trent-crest" class="site-crest" />
+          </div>
+          <div><h2 class="site-title">How to register for courses ? </h2></div>
+        </div>
+        <div>
+          <ul class="site-links">
+            <li><a href="https://www.trentu.ca/housing/applying/residence-faqs">FAQs</a></li>
+            <li><a href="https://www.trentu.ca/registrar/important-dates-deadlines">Important Dates & Deadlines</a></li>
+            <li><a href="https://www.trentu.ca/registrar/records-registration">Records & Registration</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="level-page">
+      <div class="level-page-content">
+        <h1>Step 6: How to register for courses ? </h1>
+            <h2>Selecting & Registering for Courses</h2>
+            <br>
+            <h2>New Students</h2>
+            <ol type="1">
+              <li><p>Registration for all courses is done through myTrent, under the Register tab.</li>
+              <li><p>To start your course selection for registration, review the Academic Calendar for information on your program and degree requirements.</li>
+              <li><p>A list of the courses, course descriptions, and dates/times available can be found in the Academic Timetable. It is important to note that not all courses are offered each year.  If the course is not listed in the Academic Timetable, then it is not being offered for the current term.</li>
+              <li><p>During the Fall/Winter term your individual timetable can be created using Visual Schedule Builder (VSB).  This tool is not available for the Summer term as there are not as many classes offered.</li>
+            </p></ol>
+        <h2>Registration Deadlines</h2>
+            <p>
+              *You will not be permitted to drop courses after this date. You will remain registered and will receive a final grade.  Information on refunds for dropped courses/complete withdrawals can be found at Student Accounts site.  For a more comprehensive list of dates for the full academic year, visit Important Dates & Deadlines.
+              
+              <style>
+                table {
+                  font-family: arial, sans-serif;
+                  border-collapse: collapse;
+                  width: 100%;
+                }
+                
+                td, th {
+                  border: 1px solid #dddddd;
+                  text-align: left;
+                  padding: 8px;
+                  background-color: #9ae592;
+                }
+                
+                tr:nth-child(even) {
+                  background-color: #9ae592;
+                }
+                </style>
+                </head>
+                <body>
+                
+                <h2>HTML Table</h2>
+                
+                <table>
+                  <tr>
+                    <th>DEADLINE</th>
+                    <th>FALL 2022	</th>
+                    <th>FALL/WINTER 2022-23	</th>
+                    <th>WINTER 2023</th>
+                  </tr>
+                  <tr>
+                    <td>CLASSES START</td>
+                    <td>September 8</td>
+                    <td>Fall September 8 <br>
+                      Winter January 9</td>
+                      <td>January 9</td>
+                  </tr>
+                  <tr>
+                    <td>FINAL DATE TO ADD COURSES</td>
+                    <td>September 22</td>
+                    <td>September 22</td>
+                    <td>January 23</td>
+                  </tr>
+                  <tr>
+                    <td>*FINAL DATE TO DROP COURSES WITHOUT ACADEMIC PENALTY</td>
+                    <td>November 8</td>
+                    <td>February 9</td>
+                    <td>March 10</td>
+                  </tr>
+                  <tr>
+                    <td>READING BREAK </td>
+                    <td>October 24-28</td>
+                    <td>Holiday Break <br>
+                      December 23-January 3</td>
+                    <td>February 20-24</td>
+                  </tr>
+                  <tr>
+                    <td>CLASSES END	</td>
+                    <td>December 7</td>
+                    <td>Fall December 7<br>
+                      Winter April 6</td>
+                    <td>April 6
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>EXAM PERIOD</td>
+                    <td>December 9-22</td>
+                    <td>Fall December 9-22<br>
+                      Winter April 11-24</td>
+                    <td>April 11-24</td>
+                  </tr>
+                </table>
+                
+                </body>
+                </html>        
+
+<h2>Waitlisted Courses</h2>
+<p>
+  Any course that is listed in Approved Limited Enrolment Courses will have a waitlist once the enrolment limit is reached.  As space becomes available in the course, the first waitlisted student will receive an email offer of an available spot and will have a 72 hour (3 day) window in which to register for the course in myTrent.
+  
+  <br><br>The email offering a spot is sent to Trent University student email accounts only.  Check your email often if you are waitlisted for a course.  If you are offered a spot and do not enroll by the deadline, the spot will be offered to the next waitlisted student and you will be removed from the waitlist.  Your email offer of a spot will include instructions on how to register for the course.
+  
+  <br><br>You may view your waitlist standing in myTrent, under Academics → Courses → Waitlists.
+  
+  <br><br> Your waitlist status will be one of the following.</p>
+  <ul><li>A numerical ranking of your position on the waitlist (e.g. 3/14).</li>
+    <li>Permission to register when space has been offered.</li></ul>
+
+
+
+          </div>
+      <div class="level-page-nav">
+        <h2>INTERNATIONAL</h2>
+        <hr>
+        <ul>
+          <li><a href="homepage.html">Welcome</a></li>
+          <li><a href="feature3.html">Step - 02</a></li>
+          <li><a href="feature4.html">Step - 03</a></li>
+          <li><a href="feature5.html">Step - 04</a></li>
+          <li><a href="feature6.html">Step - 05</a></li>
+          <li><a href="feature7.html">Step - 06</a></li>
+          <li><a href="feature8.html">Step - 07</a></li>
+          <li><a href="feature9.html">Step - 08</a></li>
+          <li><a href="feature10.html">Step - 09</a></li>
+          <li><a href="feature11.html">Step - 10</a></li>
+          <li><a href="feature12.html">Step - 11</a></li>
+        </ul>
+      </div>
+    </main>
+   <!-- Site footer -->
+   <footer>
+    <div class="row-footer">
+      <div class="cloumn-footer">
+        <img src="images/trentulogo.png" class="trent-logo" />
+        <h6 class="FooterTagline">CHALLENGE THE WAY YOU THINK</h6>
+      </div>
+
+      <div class="cloumn-footer>">
+        <h5>Peterborough</h5>
+        <p>1600 West Bank Drive</p>
+        <p>Peterborough, ON Canada, K9L 0G2</p>
+
+        <p>
+          Toll Free:<a href="tel:855-698-7368" class="footer-links"
+            >1-855-MY-TRENT</a
+          >
+        </p>
+        <div>
+          <i class="fa-solid fa-location-dot dot"></i
+          ><a href="https://www.trentu.ca/map/" class="footer-links"
+            >Campus Map</a
+          >
+        </div>
+      </div>
+
+      <div class="column-footer">
+        <h5>Durham Greater Toronto Area</h5>
+        <p>55 Thornton Road South</p>
+        <p>Oshawa, ON Canada, L1J 5Y1</p>
+
+        <p>
+          Toll Free:<a href="tel:905-435-5100" class="footer-links"
+            >905-435-5100</a
+          >
+        </p>
+        <div>
+          <i class="fa-solid fa-location-dot dot"></i
+          ><a href="https://www.trentu.ca/durham/map/" class="footer-links"
+            >Campus Map</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="ending-footer">
+      <ul class="social-icons">
+        <li>
+          <a class="facebook" href="https://www.facebook.com/trentuniversity"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a class="twitter" href="https://twitter.com/TrentUniversity"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="linkedin"
+            href="https://www.linkedin.com/school/trent-university/"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="instagram"
+            href="https://www.instagram.com/trentuniversity/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="youtube"
+            href="https://www.youtube.com/user/trentUniversity"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </li>
+      </ul>
+
+      <div class="copyright">
+        <p class="copyright-text">Copyright &copy; 2022 Trent University</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
