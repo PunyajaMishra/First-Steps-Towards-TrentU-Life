@@ -11,22 +11,24 @@
 
 body {
   overflow-x: hidden !important;
+  margin: 0;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 /*Divison of the top notification*/
-div.top-notification {
+.top-notification {
   background-color: var(--trentOrange);
-  padding: top 0.5em;
-  padding: bottom 0.5em;
-  margin-right: -0.6em;
-  margin-left: -1em;
-  margin-top: -1em;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 /*Text of the Notification Division*/
-div.top-notification p {
+.top-notification p {
   text-align: center;
 }
 /*Main-Menu Divsion Tag*/
@@ -45,7 +47,6 @@ div.main-navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: -0.5em;
   padding-top: 1vw;
   padding-left: 1.3vw;
   padding-right: 2vw;
@@ -60,53 +61,52 @@ div.main-navigation {
   list-style: none;
   display: flex;
   flex-direction: row;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .main-navigation-links ul li {
   padding-right: 3vh;
 }
 /*Div tag - sticky navigation page*/
-.page-navigation-sticky{
+.page-navigation-sticky {
   display: flex;
   flex-direction: row;
+  flex: 0 1;
   justify-content: space-between;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
   background-color: var(--trentGreen);
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  padding-left: 1%;
+  padding-right: 5%;
   font-size: 1.5em;
-  margin-left: -0.5em;
-  margin-right: -0.5em;
   font-family: Verdana, sans-serif;
-}
-.sticky{
-	
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
 }
 
 .site-crest {
   height: 2em;
   min-width: 1em;
-  width: auto;
-  padding-top: 1em;
 }
 .crest-title {
   display: flex;
   flex-direction: row;
+  white-space: nowrap;
+  align-items: center;
 }
+.site-title {
+  font-size: 1.2em;
+  color: white;
+  margin-left: 2.5%;
+  padding-top: 1.5%;
+}
+
 .site-links {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   list-style: none;
-  margin-right: 10%;
+  white-space: nowrap;
+  margin-top: 5%;
 }
 .site-links li {
-  padding: 2%;
-  margin-bottom: 0%;
+  padding: 0 2%;
   text-align: center;
 }
 .site-links a,
@@ -121,17 +121,6 @@ div.main-navigation {
 .main-navigation-links a:hover {
   color: #b15533;
 }
-
-.site-title {
-  font-size: 1.2em;
-  color: white;
-  margin-left: 1%;
-}
-
-
-
-
-
 
 /* ##########################################
                   HOMEPAGE
@@ -447,11 +436,12 @@ footer {
 .image-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .image-section-img {
   margin: 2%;
-  width: 40%;
+  margin-top: 5%;
+  width: 50%;
 }
 .image-section-text-para {
   display: flex;
@@ -471,9 +461,6 @@ footer {
   background-color: #e5edee;
   height: max-content;
 }
-
-
-
 
 .level-page-nav h2 {
   text-align: center;
@@ -511,95 +498,83 @@ footer {
 /* ##########################################
               Footer
   ########################################### */
-  footer{
-    background-color: var(--trentGreen);
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: 5%;
-    padding-top: 5%;
-    height: 60vh;
-    
-   
-  }
-  .FooterTagline{
-    color: var(--trentWordYellow);
-    font-size: 3vh;
-  }
-.row-footer{
+footer {
+  background-color: var(--trentGreen);
+  margin-top: 5%;
+  padding-top: 5%;
+  height: 60vh;
+}
+.FooterTagline {
+  color: var(--trentWordYellow);
+  font-size: 3vh;
+}
+.row-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-.facebook, .twitter,.linkedin, .instagram,.youtube{
+.facebook,
+.twitter,
+.linkedin,
+.instagram,
+.youtube {
   color: white;
   font-size: 5vh;
 }
-.social-icons{
-  list-style: none;
+.social-icons {
   display: flex;
   margin-top: 1%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
-.social-icons li{
-  list-style: none;
+.social-icons li {
   display: flex;
   padding: 5%;
-
 }
-.ending-footer{
+.ending-footer {
   display: flex;
   flex-direction: column;
   justify-items: center;
-  padding-bottom: -10%;
 }
-.copyright{
+.copyright {
   display: flex;
   justify-content: center;
 }
-.dot{
+.dot {
   color: white;
   font-size: 3vh;
 }
-.footer-links{
-  color:white;
-}
-footer p{
+.footer-links {
   color: white;
 }
-.copyright-text{
-  color: grey;
-  
+footer p {
+  color: white;
 }
-h5{
+.copyright-text {
+  color: grey;
+}
+h5 {
   color: white;
   font-size: 4vh;
 }
 /*******Feature 8 ***********/
-.feature-8-image{
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-
-
-  
+.feature-8-image {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-.container:hover .feature-8-image{
-	-webkit-transform: scale(1.1);
-	transform: scale(0.95);
+.container:hover .feature-8-image {
+  -webkit-transform: scale(1.1);
+  transform: scale(0.95);
 }
 .container {
   position: relative;
-  
 }
 
-
-
 .middle {
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 90%;
@@ -609,7 +584,7 @@ h5{
   text-align: center;
 }
 
-.container:hover .feature-8-image{
+.container:hover .feature-8-image {
   opacity: 0.6;
 }
 
@@ -623,23 +598,25 @@ h5{
   font-size: 20px;
   padding: 16px 32px;
 }
-.joinmeeting{
+.joinmeeting {
   display: flex;
   flex-direction: column;
   transform: scale(1);
 }
-.joinmeeting:hover{
+.joinmeeting:hover {
   transform: scale(1.1);
 }
-.f8table,td,th{
+.f8table,
+td,
+th {
   border: 1px solid;
 }
-.f8table th{
+.f8table th {
   text-align: left;
   font-size: 1.2em;
-  background-color: 		#9bcd9b;
+  background-color: #9bcd9b;
 }
-.f8table td{
+.f8table td {
   font-size: 1.2em;
   background-color: lightgoldenrodyellow;
 }
